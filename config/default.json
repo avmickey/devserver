@@ -1,7 +1,7 @@
 {
 	"serverPort" : 5000,
 	"name":"db_user",
-	"user":"info_comp",
+	"user":"postgres",
 	"host":"localhost",
 	"password":"inforoot95",
 	"port":"5432",
