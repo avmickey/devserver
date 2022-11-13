@@ -5,8 +5,9 @@ const sequelize = require('./bd');
 const cors = require('cors');
 const fileUpload = require('express-fileupload');
 const router = require('./routers/index');
+const config = require('config');
 const middleware = require('./middleware/middlewareHandLoad');
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || config.get('serverPort');
 const path = require('path');
 
 const app = express();

@@ -1,0 +1,9 @@
+{
+	"serverPort" : 5000,
+	"name":"db_user",
+	"user":"info_comp",
+	"host":"localhost",
+	"password":"inforoot95",
+	"port":"5432",
+	"secretKey":"user_store_pass79"
+ }
